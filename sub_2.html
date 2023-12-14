@@ -13,6 +13,8 @@
 	<link rel="stylesheet" href="css/font-awesome.css" />
 	<link rel="stylesheet" href="css/style.css" />
 	<link rel="stylesheet" href="css/responsive.css" />
+	<link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css" />
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 
 </head>
 
@@ -86,17 +88,17 @@
 							</div>
 							<img src="images/1/rabbithop-mockup.png" alt="" width="600px" style="text-align: center;"
 								data-aos="fade-up">
-							<div class="post-article">
+							<div class="post-article" data-aos="fade-up">
 								Rabbit Hop은 부정적인 의미로 쓰이는 ‘평균 실종’의 키워드를 긍정적인 의미로 해석하여, 양극화를 넘어 N극화로 나눠진 사회의 다양한 사람들을 포용하는
 								작품입니다.
 								<br><br>
-								<strong> 공모전 프로모션 사이트 </strong> <br>
-								<strong> TYPE </strong> Web Site <br>
-								<strong> PAGE </strong> Main + Sub*4 <br>
-								<strong> TOOL </strong> HTML · CSS, JS <br>
-								<strong> PROCESS </strong> 스크롤 이벤트 · 텍스트 애니메이션 <br>
+								<strong data-aos="fade-up"> 공모전 프로모션 사이트 </strong> <br><br>
+								<strong data-aos="fade-up"> TYPE </strong> Web Site <br>
+								<strong data-aos="fade-up"> PAGE </strong> Main + Sub*4 <br>
+								<strong data-aos="fade-up"> TOOL </strong> HTML · CSS, JS <br>
+								<strong data-aos="fade-up"> PROCESS </strong> 스크롤 이벤트 · 텍스트 애니메이션 <br>
 							</div>
-							<a href="http://hyehwa615.dothome.co.kr/" class="btn btn-readmore">→</a>
+							<a href="http://hyehwa615.dothome.co.kr/" class="btn btn-readmore" data-aos="fade-up">→</a>
 
 							<br><br><br><br> <br><br><br><br>
 						</article>
@@ -147,7 +149,13 @@
 	<script type="text/javascript" src="js/jquery.magnific-popup.min.js"></script><!-- magnific-popup -->
 	<script type="text/javascript" src="js/scripts.js"></script><!-- Scripts -->
 
-
+	<script>
+		AOS.init({
+			easing: 'ease-out-back',
+			duration: 1000
+		});
+	 
+	</script>  
 </body>
 
 </html>

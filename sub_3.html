@@ -13,6 +13,8 @@
 	<link rel="stylesheet" href="css/font-awesome.css" />
 	<link rel="stylesheet" href="css/style.css" />
 	<link rel="stylesheet" href="css/responsive.css" />
+	<link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css" />
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 
 </head>
 
@@ -86,18 +88,18 @@
 							</div>
 							<img src="images/1/lucky-mockup.png" alt="" width="600px" style="text-align: center;"
 								data-aos="fade-up">
-							<div class="post-article">
+							<div class="post-article" data-aos="fade-up">
 								Lucky는 우리 주변에 흔히 발견되는데도 눈에 띄지 않는 특별한 행운의 상징과, 다양한 나라의 행운 아이템에 대해
 								소개합니다.
 								<br><br>
 
-								<strong> 2학년 1학기 중간 프로젝트</strong> <br>
-								<strong> TYPE </strong> Web Site <br>
-								<strong> PAGE </strong> Main + Sub*4 <br>
-								<strong> TOOL </strong> HTML · CSS <br>
-								<strong> PROCESS </strong> 스크롤 이벤트 · 텍스트 애니메이션 <br>
+								<strong data-aos="fade-up"> 2학년 1학기 중간 프로젝트</strong> <br><br>
+								<strong data-aos="fade-up"> TYPE </strong> Web Site <br>
+								<strong data-aos="fade-up"> PAGE </strong> Main + Sub*4 <br>
+								<strong data-aos="fade-up"> TOOL </strong> HTML · CSS <br>
+								<strong data-aos="fade-up"> PROCESS </strong> 스크롤 이벤트 · 텍스트 애니메이션 <br>
 							</div>
-							<a href="https://hyehwa615.github.io/lucky/" class="btn btn-readmore">→</a>
+							<a href="https://hyehwa615.github.io/lucky/" class="btn btn-readmore" data-aos="fade-up">→</a>
 
 							<br><br><br><br> <br><br><br><br>
 						</article>
@@ -148,7 +150,13 @@
 	<script type="text/javascript" src="js/jquery.magnific-popup.min.js"></script><!-- magnific-popup -->
 	<script type="text/javascript" src="js/scripts.js"></script><!-- Scripts -->
 
-
+	<script>
+		AOS.init({
+			easing: 'ease-out-back',
+			duration: 1000
+		});
+	 
+	</script>  
 </body>
 
 </html>
