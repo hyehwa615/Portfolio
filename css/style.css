@@ -233,9 +233,9 @@
 
 
 
-	/* 5. SLIDER */
+	/* 5. main */
 
-	#slider {
+	#main {
 		margin-top: 80px;
 	}
 	#home-carousel .item {
@@ -373,9 +373,9 @@
 
 
 
-	/* 6. SERVICES */
+	/* 6. skills */
 
-	#services {
+	#skills {
 		padding-top: 130px;
 		padding-bottom: 120px;
 	}
@@ -574,31 +574,31 @@
 
 	/* 9. ABOUT US */
 
-	#about-us {
+	#profile {
 		background-color:
 	}
 
-	#about-us .about-us {
+	#profile .profile {
 		padding-left: 15%;
 		padding-right: 15%;
 		padding-top: 15%;
 	}
 
-	#about-us .about-us h4 {
+	#profile .profile h4 {
 		margin-top: 0;
 		margin-bottom: 30px;
 	}
 
-	#about-us .about-us .btn-send {
+	#profile .profile .btn-send {
 		margin-top: 30px;
 	}
 
-	#about-us .our-office {
+	#profile .our-1 {
 		padding-right: 0px;
 	}
 
-	.office-carousel-left,
-	.office-carousel-right {
+	.1-carousel-left,
+	.1-carousel-right {
 		background-color: #f0f0f0;
 		color: #000;
 		font-size: 32px;
@@ -617,23 +617,23 @@
 		transition: 300ms;
 	}
 
-	.office-carousel-left {
+	.1-carousel-left {
 		left: -32px;
 	}
 
-	.office-carousel-right {
+	.1-carousel-right {
 		right: -32px;
 	}
 
-	#office-carousel:hover .office-carousel-left {
+	#1-carousel:hover .1-carousel-left {
 		left: 0;
 	}
 
-	#office-carousel:hover .office-carousel-right {
+	#1-carousel:hover .1-carousel-right {
 		right: 0;
 	}
 
-	#office-carousel .item img {
+	#1-carousel .item img {
 		width: 100%;
 	}
 
@@ -641,34 +641,34 @@
 
 	/* 10. OUR TEAM */
 
-	#our-team {
+	#portfolio {
 		padding-top: 130px;
 		/* padding-bottom: 120px; */
 	}
 
-	.team-member {
+	.portfolio-list {
 		margin-top: 30px;
 	}
 
-	.member-image {
+	.portfolio-image {
 		position: relative;
 	}
 
-	.member-info {
+	.portfolio-info {
 		background-color: #ffffff;
 		padding: 15px;
 	}
 
-	.member-info h4 {
+	.portfolio-info h4 {
 		margin-top: 0;
 		margin-bottom: 6px;
 	}
 
-	.member-info span {
+	.portfolio-info span {
 		text-transform: uppercase;
 	}
 
-	.team-member .member-social {
+	.portfolio-list .member-social {
 		position: absolute;
 		width: 100%;
 		height: 100%;
@@ -689,7 +689,7 @@
 		transform: scale(0.5);
 	}
 
-	.team-member:hover .member-social {
+	.portfolio-list:hover .member-social {
 		opacity: 1;
 		-moz-transform: scale(1);
 		-webkit-transform: scale(1);
@@ -698,14 +698,14 @@
 		transform: scale(1);
 	}
 
-	.team-member .member-social a {
+	.portfolio-list .member-social a {
 		position: relative;
 		font-size: 16px;
 		color: #fff;
 		top: 47%;
 	}
 
-	.team-member:hover .member-social a {
+	.portfolio-list:hover .member-social a {
 		margin: 6px;
 	}
 
@@ -819,7 +819,7 @@
 
 
 
-	/* 14. BLOG */
+	/* 14. portfolio-sub */
 
 	#page-header {
 		background-color: #ffffff;
@@ -830,7 +830,7 @@
 		margin-top: 80px;
 	}
 
-	.single-blog {
+	.single-portfolio-sub {
 		margin-top: 35px;
 		margin-bottom: 35px;
 	}
@@ -907,11 +907,11 @@
 		font-style: italic;
 	}
 
-	#blog .pagination {
+	#portfolio-sub .pagination {
 		margin-bottom: 80px;
 	}
 
-	#blog .pagination li a {
+	#portfolio-sub .pagination li a {
 		width: 35px;
 		height: 35px;
 		line-height: 31px;
@@ -924,8 +924,8 @@
 		border-radius: 0;
 	}
 
-	#blog .pagination li.active a,
-	#blog .pagination li a:hover {
+	#portfolio-sub .pagination li.active a,
+	#portfolio-sub .pagination li a:hover {
 		background-color: transparent;
 		border-color: #000;
 		color: #000;
@@ -952,11 +952,11 @@
 		font-weight: 500;
 	}
 
-	.blog-search {
+	.portfolio-sub-search {
 		position: relative;
 	}
 
-	.blog-search input {
+	.portfolio-sub-search input {
 		border: 1px solid #d6d6d6;
 		color: #8d8d8d;
 		height: 44px;
@@ -965,7 +965,7 @@
 		width: 100%;
 	}
 
-	.blog-search span {
+	.portfolio-sub-search span {
 		color: #252525;
 		font-size: 12px;
 		position: absolute;
@@ -976,12 +976,12 @@
 		-webkit-transform: translateY(-50%);
 	}
 
-	.blog-search .search-submit {
+	.portfolio-sub-search .search-submit {
 		background: none;
 		border: none;
 	}
 
-	.blog-search:after {
+	.portfolio-sub-search:after {
 		background-color: #d6d6d6;
 		content: "";
 		display: block;

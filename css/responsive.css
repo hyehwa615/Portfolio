@@ -26,7 +26,7 @@
 		letter-spacing:2px;
 		margin-bottom:20px;
 	}
-	#our-team, #pricing, #our-works, #services, #contact{
+	#portfolio, #pricing, #our-works, #skills, #contact{
 		padding-top: 110px;
 		padding-bottom: 100px;
 	}
@@ -62,7 +62,7 @@
 		margin-bottom:20px;
 	}
 
-	#about-us .about-us {
+	#profile .profile {
 		padding-left: 0;
 		padding-right: 0;
 		padding-top: 9%;
@@ -72,7 +72,7 @@
 		display: none !important;
 	}
 
-	#our-team, #pricing, #our-works, #services, #contact{
+	#portfolio, #pricing, #our-works, #skills, #contact{
 		padding-top: 100px;
 		padding-bottom: 100px;
 	}
@@ -86,7 +86,7 @@
 		padding-bottom: 60px;
 	}
 
-	#about-us .about-us .btn-send {
+	#profile .profile .btn-send {
 		margin-top: 12px;
 	}
 
@@ -157,7 +157,7 @@
 		margin-bottom: 30px;
 	}
 
-	#about-us .our-office{
+	#profile .our-1{
 		padding-left: 0;
 		padding-right: 0;
 	}
@@ -167,14 +167,14 @@
 		padding-bottom: 60px;
 	}
 
-	#about-us .about-us {
+	#profile .profile {
 		padding-left: 5%;
 		padding-right: 5%;
 		padding-top: 10%;
 		padding-bottom: 10%;
 	}
 
-	#our-team, #pricing, #our-works, #services{
+	#portfolio, #pricing, #our-works, #skills{
 		padding-top: 100px;
 		padding-bottom: 100px;
 	}
